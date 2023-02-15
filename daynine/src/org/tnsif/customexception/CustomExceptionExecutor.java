@@ -17,8 +17,8 @@ public class CustomExceptionExecutor {
 			if(id.equals("mymail") && password.equals("pass1234")) 
 			{
 				System.out.println("Credential Matched !");
-				
 			}
+			
 			else
 			{
 				throw new LoginCredentials("Invalid Credentitial");
