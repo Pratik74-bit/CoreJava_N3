@@ -40,8 +40,9 @@ public abstract class BankAcc {
 	
 	public abstract void withdraw(float accBal);
 	
-	public void deposit(float accBal) {
-		System.out.println(accBal);
+	public void deposit(float Bal) {
+		accBal = accBal+Bal;
+		System.out.println("Balance Deposited:"+Bal);
 	}
 
 	@Override

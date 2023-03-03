@@ -4,7 +4,7 @@ public abstract class SavingAcc extends BankAcc {
 	
 	
 	private boolean isSalaried;
-	private static final float MINBAL=0.0f; 
+	//private static final float MINBAL=0.0f; 
 
 	public SavingAcc(int accNo, String accNm, float accBal, boolean isSalaried) {
 		super(accNo, accNm, accBal);
